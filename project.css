@@ -8,7 +8,6 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +40,8 @@ p {
 }
 
 img {
-    margin-left: 1.5rem;
+    margin-left: 75px;
+    width: 300px;
 }
 
 #weekday {
@@ -50,7 +50,7 @@ img {
 }
 
 #schedule {
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-bottom: 1rem;
 }
 
