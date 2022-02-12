@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Planner </title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="js/date.js"></script>
+    <script defer src="js/list.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Shauntal's Weekday Planner</h1>
+        <img src="planner.jpg" alt="Highlighted Daily Planner Page">
+    </header>
+    <main>
+        <h2>Today is: <span id="weekday"></span></h2>
+        <h2>What needs to be done today:</h2>
+        <ul id="schedule">
+
+        </ul>
+        <section>
+            <h3>Today's Check List: &#10004;</h2>
+            <div class="input">
+                <label>To Do:<br>
+                    <input type="text" id="todo"></label>
+                <button aria-label="Remove" type="submit"><strong>Add Task</strong></button>
+            </div>
+            <div class="listcontainer">
+                <ul class="list">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> .:|:. <strong>Shauntal Byrne</strong> .:|:. CSE121b .:|:. Week 6 Project</p>
+    </footer>
+</body>
+</html>
